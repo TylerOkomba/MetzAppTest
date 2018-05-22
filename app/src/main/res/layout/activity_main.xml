@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F9C250"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="87dp"
+        android:autoText="false"
+        android:background="#ffffff"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:text="Password"
+        android:textAlignment="center"
+        android:textColor="#808080" />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="52dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="154dp"
+        android:background="#ffffff"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:text="Username"
+        android:textAlignment="center"
+        android:textColor="#808080" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="23dp"
+        android:capitalize="none"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:singleLine="false"
+        android:text="Mund Dining Hall"
+        android:textAlignment="center"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:typeface="sans" />
+
+    <Button
+        android:id="@+id/sign in"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="21dp"
+        android:background="#857b7c"
+        android:ellipsize="40"
+        android:text="Sign In"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+
+</RelativeLayout>
+
