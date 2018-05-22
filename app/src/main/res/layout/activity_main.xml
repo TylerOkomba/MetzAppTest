@@ -18,10 +18,11 @@
         android:autoText="false"
         android:background="#ffffff"
         android:ems="10"
+        android:hint="Password"
         android:inputType="textPassword"
-        android:text="Password"
         android:textAlignment="center"
-        android:textColor="#808080" />
+        android:textColor="#000000"
+        android:textColorHint="#808080" />
 
     <EditText
         android:id="@+id/username"
@@ -32,10 +33,11 @@
         android:layout_marginBottom="154dp"
         android:background="#ffffff"
         android:ems="10"
+        android:hint="Username"
         android:inputType="textEmailAddress"
-        android:text="Username"
         android:textAlignment="center"
-        android:textColor="#808080" />
+        android:textColor="#000000"
+        android:textColorHint="#808080" />
 
     <EditText
         android:id="@+id/editText4"
@@ -55,14 +57,13 @@
         android:typeface="sans" />
 
     <Button
-        android:id="@+id/sign in"
+        android:id="@+id/signin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="21dp"
         android:background="#857b7c"
-        android:ellipsize="40"
         android:text="Sign In"
         android:textColor="#ffffff"
         android:textStyle="bold" />
